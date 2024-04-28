@@ -1,0 +1,46 @@
+body{
+    background-color: lightgray;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;   
+    font-family: arial;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: system-ui;
+}
+
+
+.headertablecss{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(143, 216, 27);
+}
+
+.bodytablecss{
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(109, 240, 245);
+}
+
+.mondaycss{
+    color: blue;
+}
+.tuesdaycss{
+    color: red;
+}
+.wednesdaycss{
+    color: green;
+}
+
+.thursdaycss{
+    color: yellow;
+}
+.fridaycss{
+    color: black;
+}
