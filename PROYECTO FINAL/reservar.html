@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoFan - Reserva tu lugar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styleother.css">
+    <script src="./index.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="./Imagenes/logo.png" id="logo" alt="Logo"></a>
+            <h3>Viaja a ver a tu equipo con GoFan</h3>
+            <div>
+                <a href="reservas.html">Mis reservas</a>
+                <a href="contacto.html">Consultas</a>
+                <a href="cart.html"><img src="./Imagenes/shopping-cart.png" alt="Carrito de compras"></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <table border="1"> <!--Border = 1 genera el borde de la tabla, a mayor numero mayor grosor-->
+            <tr>
+                <td><input type="button" value=" 1 " id="btn1"></td>
+                <td><input type="button" value=" 2 " id="btn2"></td>
+                <td>___</td>
+                <td><input type="button" value=" 3 " id="btn3"></td>
+            </tr> 
+            <tr>
+                <td><input type="button" value=" 4 " id="btn4"></td>
+                <td><input type="button" value=" 5 " id="btn5"></td>
+                <td>___</td>
+                <td><input type="button" value=" 6 " id="btn6"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value=" 7 " id="btn7"></td>
+                <td><input type="button" value=" 8 " id="btn8"></td>
+                <td>___</td>
+                <td><input type="button" value=" 9 " id="btn9"></td>
+            </tr>
+            
+        </table>
+        <br><br><br>
+        <!--<button onclick="freservar()">Hacer Reserva</button>-->
+        <p>Total reservas: <span id="reservas">0</span></p>
+        <p>Total precio: $<span id="precio">0</span></p>
+        <button onclick="comprar()">Comprar</button>
+        
+
+        <script src="./index.js"></script>
+        
+
+    </main>
+
+    <footer>Creado por Mario Díaz Zárate</footer>
+    
+</body>
+</html>

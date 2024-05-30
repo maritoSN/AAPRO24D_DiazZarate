@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoFan</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+  <header>
+		<nav>
+				<a href="./index.html"><img src="./Imagenes/logo.png" id="logo" alt="Logo"></a>
+				<h3>Viaja a ver a tu equipo con GoFan</h3>
+				<div>
+					<a href="reservas.html">Mis reservas</a>
+					<a href="contacto.html">Consultas</a>
+					<a href="cart.html"><img src="./Imagenes/shopping-cart.png" alt="Carrito de compras"></a>
+				</div>
+		</nav>
+	</header>
+	<main>
+		<p id="carrito-vacio">Ups! El carrito está vacío, <a href="./index.html">elige por lo menos un asiento</a></p>
+		<section id="cart-container">
+		</section>
+  <section id="totales">
+    <p>Total unidades: <span id="conteo">0</span></p>
+    <p>Total precio: $<span id="precio">0</span></p>
+    <button disabled>Comprar</button>
+    <button id="reiniciar">Reiniciar</button>
+  </section>
+</main>
+<footer>Creado por Mario Díaz Zárate</footer>
+</body>
+</html>

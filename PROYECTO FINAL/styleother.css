@@ -1,0 +1,38 @@
+body main ul {
+    color: grey;
+    text-align: center;
+    margin: 20px 60px;
+  }
+  li{
+    list-style: none;
+    color: grey;
+    text-align: center;
+    /*margin: 20px 60px;*/
+  }
+
+  .formcontacto{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: small;
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  form input{
+    width: 40%;
+    height: 40px;
+    /*margin: .5rem;*/
+    align-items: center;
+  }
+  
+  form button{
+    padding: .5em 1em;
+    border:1px;
+    /*background: rgba(0, 0, 0, 0.554);*/
+    background-color: white;
+    /*cursor: pointer;*/
+  }
